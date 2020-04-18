@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/background_light"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Day"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Day"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Month"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Month"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Year"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Year"
+            android:inputType="textMultiLine" />
+
+
+        <EditText
+            android:id="@+id/Price"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="amount"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Item"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Category"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/Sub"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="Date Search" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Initial Date :" />
+
+        <EditText
+            android:id="@+id/Day1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Day"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Month1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Month"
+            android:inputType="textMultiLine" />
+        <EditText
+            android:id="@+id/Year1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Year"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="To" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Final Date :" />
+
+
+        <EditText
+            android:id="@+id/Day2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Day"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Month2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Month"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/Year2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Year"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="Money Search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="From :" />
+
+        <EditText
+        android:id="@+id/Amount1"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="Amount"
+        android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="to :" />
+
+        <EditText
+            android:id="@+id/Amount2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:hint="Amount"
+            android:inputType="textMultiLine" />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Search"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center"
+            android:text="Clear" />
+
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/historyContent"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="History" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TableLayout
+            android:id="@+id/tableHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TableRow
+                android:id="@+id/firstRow"
+                android:background="#0079D6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Amount" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Category" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>
